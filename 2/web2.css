@@ -1,0 +1,83 @@
+/* Your existing CSS styles can be included here */
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-list {
+    margin-top: 2rem;
+  }
+  
+  .product-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: calc(50% - 10px); /* Half of the available width minus gap */
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .increase,
+  .decrease {
+    background-color: #333;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .increase:hover,
+  .decrease:hover {
+    background-color: #555;
+  }
+  
+  .total-table {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  .controls {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .prev-button,
+  .next-button {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover {
+    background-color: #555;
+  }
+  
