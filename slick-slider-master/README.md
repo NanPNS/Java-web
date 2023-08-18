@@ -1,2 +1,0 @@
-# slick-slider
-slick-slider
